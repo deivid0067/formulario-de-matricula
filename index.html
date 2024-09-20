@@ -117,7 +117,13 @@
               <div class="flex">
                 <div class="input-wrapper flex-2">
                   <label for="street">Rua</label>
-                  <input type="text" id="street" name="street" disabled value="Rua das Flores"/>
+                  <input
+                    type="text"
+                    id="street"
+                    name="street"
+                    disabled
+                    value="Rua das Flores"
+                  />
                 </div>
 
                 <div class="input-wrapper flex-1">
@@ -126,16 +132,58 @@
                 </div>
               </div>
 
-
               <div class="flex">
                 <div class="input-wrapper flex-2">
                   <label for="city">Cidade</label>
-                  <input type="text" id="city" name="city" disabled value="São Paulo" />
+                  <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    disabled
+                    value="São Paulo"
+                  />
                 </div>
 
                 <div class="input-wrapper flex-1">
                   <label for="state">Número</label>
-                  <input type="text" id="state" name="state" disabled value="SP"/>
+                  <input
+                    type="text"
+                    id="state"
+                    name="state"
+                    disabled
+                    value="SP"
+                  />
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="guardian">
+              <legend>Informação do responsável</legend>
+
+              <div class="input-wrapper">
+                <label for="guardian">Nome do responsável</label>
+                <input type="text" id="guardian" />
+                <small
+                  >Principal responsável legal e contato de emergência</small
+                >
+              </div>
+
+              <div class="input-wrapper">
+                <label for="phone">Telefone</label>
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  placeholder="(10) 9 8765-4321"
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required />
+                <div class="error">
+                  <img src="./assets/icons/alert-circle.svg" alt="alert">
+                  <span>Insira um e-mail válido</span>
                 </div>
               </div>
             </fieldset>
