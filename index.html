@@ -182,8 +182,42 @@
                 <label for="email">E-mail</label>
                 <input type="email" name="email" id="email" required />
                 <div class="error">
-                  <img src="./assets/icons/alert-circle.svg" alt="alert">
+                  <img src="./assets/icons/alert-circle.svg" alt="alert" />
                   <span>Insira um e-mail válido</span>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="enroll-options">
+              <legend>Opções de matrícula</legend>
+
+              <div class="input-wrapper">
+                <label>Selecione o turno de estudo</label>
+
+                <div class="radio-wrapper">
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input
+                      type="radio"
+                      name="study-shift"
+                      value="morning"
+                      id="morning"
+                      />
+                    <img src="./assets/icons/sun-cloud-02.svg" alt="day">
+                    <label for="morning">Manhã</label>
+                  </div>
+
+                  <div class="radio-inner"></div>
+                    <div class="radio-image"></div>
+                    <input
+                      type="radio"
+                      name="study-shift"
+                      value="evening"
+                      id="evening"
+                      />
+                    <img src="./assets/icons/sun-02.svg" alt="day">
+                    <label for="evening">Manhã</label>
+                  </div>
                 </div>
               </div>
             </fieldset>
